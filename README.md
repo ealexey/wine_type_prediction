@@ -40,9 +40,6 @@ Classification report:
            0       0.99      0.99      0.99      1225
            1       0.98      0.96      0.97       400
     accuracy                           0.98      1625
-   macro avg       0.98      0.98      0.98      1625
-weighted avg       0.98      0.98      0.98      1625
-
 
 Conclusion: The most important features to discriminate between white wine and red wine are:
 total sulfur dioxide: about 3 times higher in white wine in comparison with red wine
