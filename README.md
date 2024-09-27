@@ -35,12 +35,13 @@ The aim of this project is to predict type of the wine-white or red-based on its
 
 Logistic regression was used to classify wine for white or red based on its features.
 Classification report:
-              precision    recall  f1-score   support
 
+              precision    recall  f1-score   support
            0       0.99      0.99      0.99      1225
            1       0.98      0.96      0.97       400
-
     accuracy                           0.98      1625
+   macro avg       0.98      0.98      0.98      1625
+weighted avg       0.98      0.98      0.98      1625
 
 
 Conclusion: The most important features to discriminate between white wine and red wine are:
