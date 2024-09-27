@@ -1,7 +1,12 @@
 # wine_type_prediction
 
+The repo contains following files:
+wine_type_by_chemical_properties.ipynb -jupyter lab with python code
+white_wine.csv -dataset containing white wine data 
+red_wine.csv -dataset containing red wine data 
 
-The aim of this project is to predict type of the wine-white or red-based on its chemical properties. For this project two wine datasets were used that contain information about some chemical components for both the white wine and the red wine. The two analyzed datasets are related to red and white variants of the Portuguese "Vinho Verde" wine. Vinho Verde (pronounced “veeng-yo vaird”) is a Portuguese wine that comes from the region of Vinho Verde. The 11 chemical component concentrations were included in datasets together with a column containing quality score of each wine (score ranges between 0 and 10). Each dataset contains following features:
+Project.
+The aim of this project is to predict type of the wine-white or red-based on its chemical properties (features). For this project two wine datasets were used that contain information about some chemical components for both the white wine and the red wine. The two analyzed datasets are related to red and white variants of the Portuguese "Vinho Verde" wine. Vinho Verde (pronounced “veeng-yo vaird”) is a Portuguese wine that comes from the region of Vinho Verde. The 11 wine's features were included in datasets together with a column containing quality score of each wine (score ranges between 0 and 10). Each dataset contains following features:
 
 1 - fixed acidity 
 
@@ -28,9 +33,24 @@ The aim of this project is to predict type of the wine-white or red-based on its
 12 - quality (score between 0 and 10)
 
 
-Logistic regression was used to classify a wine for white or red based on its chemical components.
+Logistic regression was used to classify wine for white or red based on its features.
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      1225
+           1       0.98      0.96      0.97       400
+
+    accuracy                           0.98      1625
+   macro avg       0.98      0.98      0.98      1625
+weighted avg       0.98      0.98      0.98      1625
+
+Conclusion: The most important features to discriminate between white wine and red wine are:
+total sulfur dioxide: about 3 times higher in white wine in comparison with red wine
+residual sugar: about 3 times higher in white wine in comparison with red wine
+chlorides: about 2 times higher in red wine in comparison with white wine
+volatile acidity: about 2 times higher in red wine in comparison with white wine
 
  
-The accuracy, precision, and recall of the model is pretty high around 0.99
+
 
 
