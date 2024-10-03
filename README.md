@@ -1,11 +1,11 @@
-# wine_type_prediction
+## Wine type prediction
 
-The repo contains following files:<br>
-wine_type_by_chemical_properties.ipynb -jupyter lab with python code<br>
-white_wine.csv -dataset containing white wine data <br>
-red_wine.csv -dataset containing red wine data<br> 
+The repo contains following files:
+1. wine_type_by_chemical_properties.ipynb -jupyter lab with python code
+2. white_wine.csv -dataset containing white wine data 
+3. red_wine.csv -dataset containing red wine data
 
-Project.
+### Project.
 The aim of this project is to predict type of the wine-white or red-based on its chemical properties (features). For this project two wine datasets were used that contain information about some chemical components for both the white wine and the red wine. The two analyzed datasets are related to red and white variants of the Portuguese "Vinho Verde" wine. Vinho Verde (pronounced “veeng-yo vaird”) is a Portuguese wine that comes from the region of Vinho Verde. The 11 wine's features were included in datasets together with a column containing quality score of each wine (score ranges between 0 and 10). Each dataset contains following features:
 
 1 - fixed acidity 
