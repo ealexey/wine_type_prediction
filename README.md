@@ -38,14 +38,14 @@ Classification report:
 
               precision    recall  f1-score   support
            0       0.99      0.99      0.99      1225
-           1       0.98      0.96      0.97       400
-    accuracy                           0.98      1625
+           1       0.98      0.98      0.98       400
+    accuracy                           0.99      1625
 
-Conclusion: The most important features to discriminate between white wine and red wine are:  return  
-total sulfur dioxide: about 3 times higher in white wine in comparison with red wine  return
-residual sugar: about 3 times higher in white wine in comparison with red wine  return
-chlorides: about 2 times higher in red wine in comparison with white wine  return
-volatile acidity: about 2 times higher in red wine in comparison with white wine
+Conclusion: The most important features to discriminate between white wine and red wine are:  
+1. total sulfur dioxide: about 3 times higher in white wine in comparison with red wine
+2. residual sugar: about 3 times higher in white wine in comparison with red wine 
+3. chlorides: about 2 times higher in red wine in comparison with white wine
+4. volatile acidity: about 2 times higher in red wine in comparison with white wine
 
  
 
